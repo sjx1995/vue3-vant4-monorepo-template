@@ -1,0 +1,21 @@
+{
+  "name": "vue3-vant4-template",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev:mobile": "pnpm run -F @hitools/mobile-domestic dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "packageManager": "pnpm@9.1.1",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

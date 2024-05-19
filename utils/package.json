@@ -1,0 +1,20 @@
+{
+  "name": "@hitools/utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "axios": "^1.6.8"
+  }
+}
