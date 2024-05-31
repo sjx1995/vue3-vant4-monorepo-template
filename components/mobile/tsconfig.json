@@ -19,6 +19,7 @@
     "jsx": "preserve",
     /* Linting */
     "strict": true,
+    "outDir": "./dist",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true

@@ -4,6 +4,10 @@
   "description": "",
   "scripts": {
     "dev:mobile": "pnpm run -F @hitools/mobile-domestic dev",
+    "build:mobile": "pnpm run build:lib && pnpm run build:component && pnpm run build:mobile-app",
+    "build:mobile-app": "pnpm run -C apps/mobile-domestic build",
+    "build:component": "pnpm run -F @hitools/mobile-components build",
+    "build:lib":"pnpm run -F @hitools/utils build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "workspaces": {

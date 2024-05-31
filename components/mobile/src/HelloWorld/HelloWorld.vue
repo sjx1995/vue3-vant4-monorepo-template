@@ -29,6 +29,9 @@ const count = ref(0);
 </template>
 
 <style scoped>
+.card{
+  color: red;
+}
 .read-the-docs {
   color: #888;
 }

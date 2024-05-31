@@ -2,9 +2,11 @@
   "name": "@hitools/utils",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "types": "index.js",
+  "main": "./lib/src/index.js",
+  "module": "./lib/src/index.js",
+  "types": "./src/index.ts",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

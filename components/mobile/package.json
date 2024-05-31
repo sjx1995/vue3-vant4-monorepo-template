@@ -3,8 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "main": "./src/main.ts",
-  "types": "./src/main.ts",
+  "main": "dist/es/index.js",
+  "module": "dist/es/index.js",
+  "style": "dist/es/style.css",
+  "types": "./src/index.ts",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
